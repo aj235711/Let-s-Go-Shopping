@@ -33,7 +33,7 @@ function checkDatabase() {
 	if(f === 0) {
 		addInList();
 	} else {
-		showMessage();
+		bar.value = "";
 	}
 }
 
